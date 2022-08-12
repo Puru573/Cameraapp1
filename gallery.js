@@ -104,7 +104,7 @@ function downloadListner(e){
         let videoRequest=videoStore.get(id);  
         videoRequest.onsuccess=()=>{
             let videoResult=videoRequest.result;
-            let videoURL=videoResult.url;
+            let videoURL=URL.createObjectURL(videoResult.blobData);
 
             let a=document.createElement("a");
             a.href=videoURL;

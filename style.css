@@ -21,7 +21,7 @@ video{
     /* background-color: blueviolet; */
     position:absolute;
     top:calc((100vh - 12rem)/2);
-    left: calc(100vh - -41rem);
+    left: calc(100vh - -51rem);
     display:flex;
     flex-direction: column;
     justify-content: space-around;
